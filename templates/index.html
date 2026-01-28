@@ -1,11 +1,18 @@
 {% extends 'base.html' %}
-
 {% block title %}Home{% endblock %}
-
 {% block content %}
 <section class="hero">
-    <h2>Helping People During Emergencies</h2>
-    <p>Join our community of volunteers and NGOs to provide instant help during accidents, floods, and disasters.</p>
-    <a href="{{ url_for('signup') }}" class="btn">Join Now</a>
+    <h1>Helpize</h1>
+    <p>Connecting volunteers & NGOs for emergency help</p>
+    <a href="{{ url_for('sos') }}" class="sos-btn">🚨 SOS</a>
+</section>
+<section class="features">
+    <h2>How it Works</h2>
+    <ul>
+        <li>Report emergencies</li>
+        <li>Get alerts & resources</li>
+        <li>Volunteer to help</li>
+    </ul>
 </section>
 {% endblock %}
+
