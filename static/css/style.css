@@ -1,0 +1,99 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin:0; padding:0;
+    background-color: #eef2f7;
+    color: #222;
+}
+
+header {
+    background-color: #1565c0;
+    color:white;
+    padding:15px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a {
+    color:white;
+    margin: 0 10px;
+    text-decoration:none;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Hero section */
+section.hero {
+    background-color:#d0e4ff;
+    padding:40px;
+    text-align:center;
+    border-radius:10px;
+}
+
+/* Forms */
+section.form-section {
+    background:white;
+    padding:20px;
+    max-width:400px;
+    margin:20px auto;
+    border-radius:10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+input, textarea, button {
+    width:100%;
+    padding:10px;
+    margin:6px 0;
+    border-radius:5px;
+    border:1px solid #ccc;
+}
+
+button {
+    background-color:#1565c0;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+
+button:hover {
+    background-color:#0d47a1;
+}
+
+/* Footer */
+footer {
+    background:#1565c0;
+    color:white;
+    text-align:center;
+    padding:10px;
+    margin-top:20px;
+}
+
+/* Flash messages */
+.flash {
+    list-style:none;
+    padding:10px;
+    margin:10px 0;
+    background:#ffd700;
+    border-radius:5px;
+}
+
+/* Dark mode */
+body.dark-mode {
+    background-color:#121212;
+    color:white;
+}
+
+body.dark-mode header {
+    background-color:#1a237e;
+}
+
+body.dark-mode section.form-section {
+    background-color:#1e1e1e;
+}

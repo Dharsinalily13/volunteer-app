@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block title %}SOS{% endblock %}
+
+{% block content %}
+<section class="form-section">
+    <h2>SOS Alert</h2>
+    <p>Send an emergency alert to nearby volunteers immediately.</p>
+    <form method="POST">
+        <input type="text" name="location" placeholder="Enter your location" required>
+        <button type="submit">Send SOS</button>
+    </form>
+</section>
+{% endblock %}
